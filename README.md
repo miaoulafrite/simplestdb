@@ -2,9 +2,11 @@
 
 Simplest key-value store.
 
-Example:
+## Usage
 
 ```console
+$ source simplestdb.sh
+
 $ db_set 123456 '{"name":"London","attractions":["Big Ben","London Eye"]}'
 
 $ db_set 42 '{"name":"San Francisco","attractions":["Golden Gate Bridge"]}'
